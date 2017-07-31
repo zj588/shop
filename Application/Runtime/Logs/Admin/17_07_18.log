@@ -1,0 +1,7 @@
+[ 2017-07-18T16:41:53+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+

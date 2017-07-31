@@ -1,0 +1,51 @@
+[ 2017-07-20T08:27:46+08:00 ] 127.0.0.1 /index.php/Home/login/login.html
+ERR: 1146:Table 'shop.shop_login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `shop_login`
+
+[ 2017-07-20T08:29:51+08:00 ] 127.0.0.1 /index.php/Home/login/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-20T08:30:06+08:00 ] 127.0.0.1 /index.php/Home/login/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-20T09:16:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodslist/goods_price/1000.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `shop_goods` WHERE ( goods_status = 1 and (goods_price  >  1000 and goods_price < ) ) LIMIT 1  
+
+[ 2017-07-20T19:19:31+08:00 ] 127.0.0.1 /home/index/goodlist
+ERR: 非法操作:goodlist
+
+[ 2017-07-20T19:19:41+08:00 ] 127.0.0.1 /home/index/goodslist
+ERR: 非法操作:goodslist
+
+[ 2017-07-20T20:07:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-20T20:07:48+08:00 ] 127.0.0.1 /index.php/Home/Cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2017-07-20T20:07:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-20T20:26:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1  )' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_goods` WHERE ( id in 1  ) 
+
+[ 2017-07-20T22:42:08+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-20T22:42:27+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

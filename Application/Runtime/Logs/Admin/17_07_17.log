@@ -1,0 +1,138 @@
+[ 2017-07-17T08:57:24+08:00 ] 127.0.0.1 /index.php/Admin/System/roleedit/id/1.html
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2017-07-17T09:48:08+08:00 ] 127.0.0.1 /index.php/Admin/index/left.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT a.*,m.menu_name,m.menu,m.menu_controller,m.menu_action,m.pid FROM shop_access a left join shop_menu m on a.menu_id = m.id  WHERE ( a.role_id= ) 
+
+[ 2017-07-17T09:48:16+08:00 ] 127.0.0.1 /admin/index/left
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT a.*,m.menu_name,m.menu,m.menu_controller,m.menu_action,m.pid FROM shop_access a left join shop_menu m on a.menu_id = m.id  WHERE ( a.role_id= ) 
+
+[ 2017-07-17T09:49:15+08:00 ] 127.0.0.1 /index.php/Admin/index/left.html
+ERR: 1054:Unknown column 'm.menu' in 'field list'
+ [ SQL语句 ] : SELECT a.*,m.menu_name,m.menu,m.menu_controller,m.menu_action,m.pid FROM shop_access a left join shop_menu m on a.menu_id = m.id  WHERE ( a.role_id=1 ) 
+
+[ 2017-07-17T09:49:19+08:00 ] 127.0.0.1 /admin/index/left
+ERR: 1054:Unknown column 'm.menu' in 'field list'
+ [ SQL语句 ] : SELECT a.*,m.menu_name,m.menu,m.menu_controller,m.menu_action,m.pid FROM shop_access a left join shop_menu m on a.menu_id = m.id  WHERE ( a.role_id=1 ) 
+
+[ 2017-07-17T19:31:08+08:00 ] 127.0.0.1 /index.php/Admin/Cate/showlist.html
+ERR: Think\Model:selecte方法不存在！
+
+[ 2017-07-17T20:43:25+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/showlist.html
+ERR: 1054:Unknown column 'c.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT a.*,c.cate_name FROM shop_attribute a left join shop_cate on a.cate_id = c.id  
+
+[ 2017-07-17T21:45:19+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:10:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:13:48+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:14:19+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:21:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:21:27+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:22:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:22:54+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:37:39+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:37:47+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:42:03+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T23:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T23:02:21+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T23:05:22+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_attribute` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+

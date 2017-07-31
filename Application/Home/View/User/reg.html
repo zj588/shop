@@ -1,0 +1,176 @@
+        <style>
+            .error {
+                color: red;
+            }
+        </style>
+
+        <div class="block block1">  
+
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="#">首页</a> <code>&gt;</code> 用户注册 
+                </div>
+            </div>
+            <div class="blank"></div>
+
+
+            <!--放入view具体内容-->
+
+            <div class="block box">
+
+                <div class="usBox">
+                    <div class="usBox_2 clearfix">
+                        <div class="logtitle3"></div>
+                        <form id="reg_form" action="__SELF__" method="post">                <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名 
+                                        <span class="required">*</span></label>
+                                        </td>
+
+                                        <td style="width:87%;">
+                                            <input class="inputBg" size="25" name="user_name" id="user_name" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">
+                                            <label for="User_password" class="required">密码 <span class="required">*</span></label>
+                                        </td>
+
+                                        <td>
+                                            <input class="inputBg" size="25" name="user_pwd" id="user_pwd" type="password" value="" />         
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_password2">密码确认</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="user_pwd2" id="user_pwd2" type="password" />
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_user_email">邮箱</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="user_email" id="user_email" type="text" value="" />    
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td align="right"><label for="User_user_qq">qq号码</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="user_qq" id="user_qq" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="User_user_tel">手机</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="user_phone" id="user_phone" type="text" value="" />
+                                            <input type="button" id="msgBtn" value="点击获取验证码" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td align="right"><label for="User_user_qq">手机验证码</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="msg_code" id="user_msg" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                   
+                                  
+                                   <!--  <tr>
+
+                                        <td align="right"><label for="User_user_introduce">验证码</label></td>
+                                        <td>
+                                        <input class="inputBg" size="25" name="captcha" id="captcha" type="text" value="" /><img onclick="this.src='__CONTROLLER__/verify/r=' + Math.random()" src="{:U('user/verify')}"/>
+                                                                 
+                                        </td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>&nbsp;</td>
+
+                                        <td align="left">
+                                            <input name="Submit" value="" class="us_Submit_reg" type="submit" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <script src="__COMMON__jquery-1.8.3.min.js"></script>
+                            <script src="__HOME__js/jquery.validate.js"></script>
+                            <script>
+                                $(function () {
+                                    $('#reg_form').validate({
+                                        rules: {
+                                            'user_name': {
+                                                'required': true,
+                                                'rangelength': '[6, 18]'
+                                            },
+                                            'user_pwd': {
+                                                'required': true,
+                                                'rangelength': '[6, 16]'
+                                            },
+                                            'user_pwd2': {
+                                                'required': true,
+                                                'equalTo': '#user_pwd'
+                                            },
+                                            'user_email': 'email'
+                                        },
+                                        messages: {
+                                            'user_name': {
+                                                'required': '用户名不能为空',
+                                                'rangelength': '用户名长度须在6-18位之间'
+                                            },
+                                            'user_pwd': {
+                                                'required': '密码不能为空',
+                                                'rangelength': '密码长度须在6-16位之间'
+                                            },
+                                            'user_pwd2': {
+                                                'required': '确认密码不能为空',
+                                                'equalTo': '两次密码不一致'
+                                            },
+                                            'user_email': '邮箱格式不正确'
+                                        }
+                                    });
+
+                                    // 发送手机验证码
+                                    $('#msgBtn').click(function () {
+                                        // alert(1);
+                                        var time = 10;
+                                        var _this = $(this);
+                                        //发送手机验证码
+                                        if (time == 10) {
+                                            var phone = $('#user_phone').val();
+                                            // alert(phone);
+                                            $.post('{:U("api/send_msg")}', {'user_phone': phone}, function (data) {
+                                                if(data.status != 1){
+                                                    alert('服务器繁忙请稍后在试...!');
+                                                }
+                                            }, 'json');
+                                        }
+                                        var t = setInterval(function () {
+                                            if (time > 0) {
+                                                _this.attr('disabled', true).val('重新获取验证码（'+time+'）');
+                                                time--;
+                                                // console.log(time);
+                                            } else {
+                                                _this.attr('disabled', false).val('重新获取验证码');
+                                                clearInterval(t);
+                                            }
+                                        }, 1000);
+                                    });
+                                });
+                            </script>
+                            
+
+                        </form>        
+                        </div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        

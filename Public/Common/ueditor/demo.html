@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ueditor demo</title>
+</head>
+
+<body>
+	<textarea id="container"></textarea>
+	<input type="button" value="点一点" onclick="fn()" />
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container', {
+        	toolbars: [[
+            'fullscreen', 'source', '|', 'undo', 'redo', 'help'
+        	]],
+        	initialFrameWidth: '600',
+        	initialFrameHeight: '300',
+        });
+
+        function fn() {
+        	var content = ue.getContentTxt();
+        	alert(content);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+[ 2017-07-30T10:13:50+08:00 ] 127.0.0.1 /index.php/Home/ucenter/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-30T10:56:45+08:00 ] 127.0.0.1 /index.php/Home/ucenter/order.html
+ERR: 1054:Unknown column 'uid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_order` WHERE ( uid = 1 ) 
+

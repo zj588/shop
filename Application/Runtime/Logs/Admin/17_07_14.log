@@ -1,0 +1,37 @@
+[ 2017-07-14T08:39:28+08:00 ] 127.0.0.1 /index.php/Admin/index/:U('category/showlist')%7D
+ERR: 非法操作::U('category
+
+[ 2017-07-14T08:39:42+08:00 ] 127.0.0.1 /index.php/Admin/category/css/mine.css
+ERR: 非法操作:css
+
+[ 2017-07-14T08:58:38+08:00 ] 127.0.0.1 /index.php/Admin/Category/history.go(-1);
+ERR: 非法操作:history.go(-1);
+
+[ 2017-07-14T13:20:44+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*) AS tp_sum FROM `shop_goods` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(*) AS tp_sum FROM `shop_goods` LIMIT 1  
+
+[ 2017-07-14T13:21:38+08:00 ] 127.0.0.1 /index.php/Admin/goods/showlist.html
+ERR: 1111:Invalid use of group function
+ [ SQL语句 ] : SELECT SUM(count(*)) AS tp_sum FROM `shop_goods` LIMIT 1  
+
+[ 2017-07-14T18:56:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/detail/id/Arrayid.html
+ERR: 非法操作:detail
+
+[ 2017-07-14T22:55:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/pic/id/__COMMON__jquery-1.7.2.min.js
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.2.min.js )' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_pic` WHERE ( goods_id=__COMMON__jquery-1.7.2.min.js ) 
+
+[ 2017-07-14T23:01:20+08:00 ] 127.0.0.1 /index.php/Admin/goods/pic.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_pic` WHERE ( goods_id= ) 
+
+[ 2017-07-14T23:01:45+08:00 ] 127.0.0.1 /index.php/Admin/goods/pic.html/id/1
+ERR: 非法操作:pic.html
+
+[ 2017-07-14T23:03:37+08:00 ] 127.0.0.1 /index.php/Admin/goods/pic.html/id/1
+ERR: 非法操作:pic.html
+
+[ 2017-07-14T23:03:42+08:00 ] 127.0.0.1 /index.php/Admin/goods/pic.html/id/1
+ERR: 非法操作:pic.html
+

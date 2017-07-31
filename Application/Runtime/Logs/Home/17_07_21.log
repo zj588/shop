@@ -1,0 +1,288 @@
+[ 2017-07-21T08:56:09+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+SQL: DELETE FROM `shop_cart` WHERE ( goods_id = 2 ) [ RunTime:0.1030s ]
+
+[ 2017-07-21T09:03:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+
+[ 2017-07-21T09:23:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+SQL: DELETE FROM `shop_cart` WHERE ( goods_id = 1 ) [ RunTime:0.1020s ]
+
+[ 2017-07-21T10:23:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+SQL: DELETE FROM `shop_cart` WHERE ( goods_id = 1 ) [ RunTime:0.0970s ]
+
+[ 2017-07-21T11:10:03+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id =  ) 
+
+[ 2017-07-21T11:43:59+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `shop_goods` ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_goods` ORDER BY goods_sort LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_goods` ORDER BY goods_click desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\shop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 126 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-21T11:46:57+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:48:01+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:51:51+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:52:06+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:52:11+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 12 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:52:15+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 13 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:53:08+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:53:23+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:53:53+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:57:47+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:57:50+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T11:57:56+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 12 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T12:07:01+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 12 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T12:07:03+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T12:07:08+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 15 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T12:08:00+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T12:09:11+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:16:26+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:17:00+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 12 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:17:02+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:22:21+08:00 ] 127.0.0.1 /index.php/Home/Index/getHot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_click desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:22:24+08:00 ] 127.0.0.1 /index.php/Home/Index/getRec
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_sort LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:22:28+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 11 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:24:17+08:00 ] 127.0.0.1 /index.php/Home/Index/getHot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 16 ) ORDER BY goods_click desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:24:20+08:00 ] 127.0.0.1 /index.php/Home/Index/getRec
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 16 ) ORDER BY goods_sort LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T14:24:24+08:00 ] 127.0.0.1 /index.php/Home/Index/getNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and category_id = 16 ) ORDER BY goods_addtime desc LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-07-21T16:47:06+08:00 ] 127.0.0.1 /index.php/Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0030s ]
+SQL: DELETE FROM `shop_cart` WHERE ( goods_id = 2 and user_id = 1 ) [ RunTime:0.0960s ]
+
+[ 2017-07-21T19:00:27+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+SQL: UPDATE `shop_cart` SET `cart_count`='2' WHERE ( goods_id = 1 and user_id = 1 ) [ RunTime:0.0960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-21T19:00:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+SQL: UPDATE `shop_cart` SET `cart_count`='1' WHERE ( goods_id = 2 and user_id = 1 ) [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-21T19:02:10+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-21T19:02:11+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,8 @@
+[ 2017-07-26T19:45:37+08:00 ] 127.0.0.1 /index.php/Home/order/getorderbyname/user_name/%E5%B0%8F%E6%98%8E
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-26T19:47:00+08:00 ] 127.0.0.1 /index.php/Home/order/getorderbyname/user_name/%E5%B0%8F%E6%98%8E
+ERR: 1146:Table 'shop.goods' doesn't exist
+ [ SQL语句 ] : SELECT o.*,g.goods_name,g.goods_count FROM shop_order o left join goods g on o.id = g.order_id  WHERE ( user_id = 1 ) LIMIT 1  
+

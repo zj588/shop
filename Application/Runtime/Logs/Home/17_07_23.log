@@ -1,0 +1,7 @@
+[ 2017-07-23T08:38:25+08:00 ] 127.0.0.1 /index.php/Home/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `shop_user` WHERE `user_name` = '小明' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+

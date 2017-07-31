@@ -1,0 +1,28 @@
+[ 2017-07-27T12:15:26+08:00 ] 127.0.0.1 /index.php/Home/cart/delAll.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0070s ]
+
+[ 2017-07-27T12:57:09+08:00 ] 127.0.0.1 /index.php/Home/cart/delAll.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_cart` [ RunTime:0.0060s ]
+
+[ 2017-07-27T13:42:06+08:00 ] 127.0.0.1 /index.php/Home/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `shop_user` WHERE `user_name` = '小明' AND `user_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0190s ]
+
+[ 2017-07-27T16:16:59+08:00 ] 127.0.0.1 /index.php/Home/ucenter/center.html
+ERR: 模板不存在:./Application/Home/View/Ucenter/center.html
+
+[ 2017-07-27T16:18:28+08:00 ] 127.0.0.1 /index.php/Home/ucenter/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-27T17:00:59+08:00 ] 127.0.0.1 /index.php/Home/ucenter/css/style.css
+ERR: 非法操作:css
+

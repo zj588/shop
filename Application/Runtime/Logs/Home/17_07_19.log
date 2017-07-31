@@ -1,0 +1,357 @@
+[ 2017-07-19T10:36:19+08:00 ] 127.0.0.1 /index.php
+ERR: 模板不存在:./Application/Home/View/layout.html
+
+[ 2017-07-19T11:11:12+08:00 ] 127.0.0.1 /index.php/home/goods/details
+ERR: 非法操作:details
+
+[ 2017-07-19T11:11:17+08:00 ] 127.0.0.1 /index.php/home/goods/detail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id= ) LIMIT 1  
+
+[ 2017-07-19T11:13:01+08:00 ] 127.0.0.1 /index.php/home/goods/detail
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id= ) LIMIT 1  
+
+[ 2017-07-19T11:14:39+08:00 ] 127.0.0.1 /index.php/Home/goods/detail.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id= ) LIMIT 1  
+
+[ 2017-07-19T11:16:14+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=css ) LIMIT 1  
+
+[ 2017-07-19T11:16:15+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=js ) LIMIT 1  
+
+[ 2017-07-19T11:16:16+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=js ) LIMIT 1  
+
+[ 2017-07-19T11:16:17+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=js ) LIMIT 1  
+
+[ 2017-07-19T11:20:32+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=css ) LIMIT 1  
+
+[ 2017-07-19T11:20:33+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/__common__js/jquery.colorbox-min.js
+ERR: 1054:Unknown column '__common__js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=__common__js ) LIMIT 1  
+
+[ 2017-07-19T11:20:34+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/__common__js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column '__common__js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=__common__js ) LIMIT 1  
+
+[ 2017-07-19T11:20:35+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/__common__js/zzsc.js
+ERR: 1054:Unknown column '__common__js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=__common__js ) LIMIT 1  
+
+[ 2017-07-19T11:20:36+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/__common__js/jquery.colorbox-min.js
+ERR: 1054:Unknown column '__common__js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=__common__js ) LIMIT 1  
+
+[ 2017-07-19T11:20:37+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/__common__js/zzsc.js
+ERR: 1054:Unknown column '__common__js' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=__common__js ) LIMIT 1  
+
+[ 2017-07-19T11:21:13+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,b.brand_name FROM shop_goods g left join shop_brand as b on g.brand_id = b.id  WHERE ( g.id=css ) LIMIT 1  
+
+[ 2017-07-19T19:29:31+08:00 ] 127.0.0.1 /index.php/Home/goods/goodslist/goods_price/0-200
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (goods_price  >  0 and goods_price < 200) )' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and brand_id =  and (goods_price  >  0 and goods_price < 200) ) 
+
+[ 2017-07-19T19:31:05+08:00 ] 127.0.0.1 /index.php/Home/goods/goodslist/goods_price/0-200
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and (goods_price  >  0 and goods_price < 200) )' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and brand_id =  and (goods_price  >  0 and goods_price < 200) ) 
+
+[ 2017-07-19T19:31:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/goodslist/brand_id/2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goods_price < ) )' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_goods` WHERE ( goods_status = 1 and brand_id = 2 and (goods_price  >   and goods_price < ) ) 
+
+[ 2017-07-19T21:21:22+08:00 ] 127.0.0.1 /index.php/Home/user/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-19T21:21:23+08:00 ] 127.0.0.1 /index.php/Home/user/s
+ERR: 非法操作:s
+
+[ 2017-07-19T21:23:25+08:00 ] 127.0.0.1 /index.php/Home/user/s
+ERR: 非法操作:s
+
+[ 2017-07-19T21:23:41+08:00 ] 127.0.0.1 /index.php/Home/user/s
+ERR: 非法操作:s
+
+[ 2017-07-19T21:53:46+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+ERR: Think\Model:cretae方法不存在！
+
+[ 2017-07-19T21:54:24+08:00 ] 127.0.0.1 /index.php/Home/user/reg.html
+ERR: Think\Model:getErroe方法不存在！
+
+[ 2017-07-19T22:20:47+08:00 ] 127.0.0.1 /index.php/Home/User/css/style.css
+ERR: 非法操作:css
+
+[ 2017-07-19T22:59:26+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName.html?user_name=%E5%B0%8F%E6%98%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name =  ) LIMIT 1  
+
+[ 2017-07-19T22:59:43+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName.html?user_name=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name =  ) LIMIT 1  
+
+[ 2017-07-19T23:01:35+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName.html?user_name=%E5%B0%8F%E6%98%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:06:39+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName?user_name=%E5%B0%8F%E6%98%8E
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:07:11+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0596s ]
+
+[ 2017-07-19T23:10:29+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:10:53+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:13:12+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:13:42+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:14:03+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:15:00+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:15:16+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:15:23+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:16:20+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:17:19+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:17:51+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:18:14+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-19T23:22:06+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:22:15+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+ERR: 1054:Unknown column '小明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小明 ) LIMIT 1  
+
+[ 2017-07-19T23:22:54+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 123 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:25:39+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column '小' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小 ) LIMIT 1  
+ERR: 1054:Unknown column '小' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = 小 ) LIMIT 1  
+
+[ 2017-07-19T23:25:49+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'sdfs' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = sdfs ) LIMIT 1  
+ERR: 1054:Unknown column 'sdfs' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = sdfs ) LIMIT 1  
+
+[ 2017-07-19T23:25:59+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0668s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 11111111 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:26:05+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+
+[ 2017-07-19T23:26:15+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+
+[ 2017-07-19T23:26:19+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 111 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-19T23:27:33+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+ERR: 1054:Unknown column 'ssss' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = ssss ) LIMIT 1  
+
+[ 2017-07-19T23:27:42+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 1111 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-19T23:28:04+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'aaaa' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = aaaa ) LIMIT 1  
+ERR: 1054:Unknown column 'aaaa' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user_name = aaaa ) LIMIT 1  
+
+[ 2017-07-19T23:29:25+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = 'aaa' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-19T23:29:37+08:00 ] 127.0.0.1 /index.php/Home/User/getUserName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user_name = '小明' ) LIMIT 1   [ RunTime:0.0000s ]
+

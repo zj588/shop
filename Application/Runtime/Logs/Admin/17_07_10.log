@@ -1,0 +1,24 @@
+[ 2017-07-10T09:54:05+08:00 ] 127.0.0.1 /admin/index/HEADER
+ERR: 非法操作:HEADER
+
+[ 2017-07-10T10:58:50+08:00 ] 127.0.0.1 /index.php/Admin/brand/brand_list.html
+ERR: 非法操作:brand_list
+
+[ 2017-07-10T11:00:08+08:00 ] 127.0.0.1 /index.php/Admin/brand/brand_list.html
+ERR: 非法操作:brand_list
+
+[ 2017-07-10T21:44:54+08:00 ] 127.0.0.1 /admin/login.login
+ERR: 无法加载控制器:Login.login
+
+[ 2017-07-10T23:30:18+08:00 ] 127.0.0.1 /index.php/Admin/Brand/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 12' at line 1
+ [ SQL语句 ] : UPDATE `shop_brand` SET  WHERE `id` = 12
+
+[ 2017-07-10T23:31:22+08:00 ] 127.0.0.1 /index.php/Admin/Brand/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 12' at line 1
+ [ SQL语句 ] : UPDATE `shop_brand` SET  WHERE `id` = 12
+
+[ 2017-07-10T23:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Brand/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 12' at line 1
+ [ SQL语句 ] : UPDATE `shop_brand` SET  WHERE `id` = 12
+
